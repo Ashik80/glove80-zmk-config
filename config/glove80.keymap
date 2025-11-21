@@ -118,6 +118,36 @@
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <43 44>;
         };
+
+        left_shift_control {
+            bindings = <&kp LS(LEFT_CONTROL)>;
+            key-positions = <36 37 35>;
+        };
+
+        right_shift_control {
+            bindings = <&kp RS(RIGHT_CONTROL)>;
+            key-positions = <42 43 44>;
+        };
+
+        left_control_alt {
+            bindings = <&kp LC(LEFT_ALT)>;
+            key-positions = <37 38 36>;
+        };
+
+        right_control_alt {
+            bindings = <&kp RC(RIGHT_ALT)>;
+            key-positions = <41 42 43>;
+        };
+
+        left_shift_alt {
+            bindings = <&kp LS(LEFT_ALT)>;
+            key-positions = <35 38>;
+        };
+
+        right_shift_alt {
+            bindings = <&kp RS(RIGHT_ALT)>;
+            key-positions = <41 44>;
+        };
     };
 
     keymap {
