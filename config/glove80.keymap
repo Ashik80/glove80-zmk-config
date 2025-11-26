@@ -129,12 +129,12 @@
             // | MAGIC | HOME| END | LEFT | RIGHT|      | BSPC  | DEL   | LALT  | | RALT  | RET   | SPACE |      |  UP   | DOWN  |  [   |   ]   | PGDN |
 
             bindings = <
-&kp F1      &kp F2        &kp F3              &kp F4                &kp F5                                                                                                       &kp F6             &kp F7                 &kp F8               &kp F9                 &kp F10
-&kp EQUAL   &kp N1        &kp N2              &kp N3                &kp N4            &kp N5                                                                             &kp N6  &kp N7             &kp N8                 &kp N9               &kp N0                 &kp MINUS
-&kp TAB     &kp Q         &kp W               &kp E                 &kp R             &kp T                                                                              &kp Y   &kp U              &kp I                  &kp O                &kp P                  &kp BSLH
-&kp ESC     &hm_l LGUI A  &hm_l LEFT_SHIFT S  &hm_l LEFT_CONTROL D  &hm_l LEFT_ALT F  &kp G                                                                              &kp H   &hm_r RIGHT_ALT J  &hm_r RIGHT_CONTROL K  &hm_r RIGHT_SHIFT L  &hm_r RMETA SEMICOLON  &kp SQT
-&kp GRAVE   &kp Z         &kp X               &kp C                 &kp V             &kp B   &kp LSHFT  &kp LCTRL  &kp LEFT_ALT  &kp RIGHT_ALT  &kp RCTRL    &kp RSHFT  &kp N   &kp M              &kp COMMA              &kp PERIOD           &kp FSLH               &kp PG_UP
-&magic 5 0  &kp HOME      &kp END             &kp LEFT              &kp RIGHT                 &kp BSPC   &mo 1      &lower        &lower         &lt 2 ENTER  &kp SPACE          &kp UP             &kp DOWN               &kp LBKT             &kp RBKT               &kp PG_DN
+&kp F1      &kp F2    &kp F3        &kp F4                &kp F5                                                                                                                              &kp F6               &kp F7                 &kp F8             &kp F9         &kp F10
+&kp EQUAL   &kp N1    &kp N2        &kp N3                &kp N4              &kp N5                                                                                       &kp N6             &kp N7               &kp N8                 &kp N9             &kp N0         &kp MINUS
+&kp TAB     &kp Q     &kp W         &kp E                 &kp R               &kp T                                                                                        &kp Y              &kp U                &kp I                  &kp O              &kp P          &kp BSLH
+&kp ESC     &kp A     &hm_l LGUI S  &hm_l LEFT_CONTROL D  &hm_l LEFT_SHIFT F  &hm_l LEFT_ALT G                                                                             &hm_r RIGHT_ALT H  &hm_r RIGHT_SHIFT J  &hm_r RIGHT_CONTROL K  &hm_r RIGHT_GUI L  &kp SEMICOLON  &kp SQT
+&kp GRAVE   &kp Z     &kp X         &kp C                 &kp V               &kp B             &kp LSHFT  &kp LCTRL  &kp LEFT_ALT  &kp RIGHT_ALT  &kp RCTRL    &kp RSHFT  &kp N              &kp M                &kp COMMA              &kp PERIOD         &kp FSLH       &kp PG_UP
+&magic 5 0  &kp HOME  &kp END       &kp LEFT              &kp RIGHT                             &kp BSPC   &mo 1      &lower        &lower         &lt 2 ENTER  &kp SPACE                     &kp UP               &kp DOWN               &kp LBKT           &kp RBKT       &kp PG_DN
             >;
         };
 
