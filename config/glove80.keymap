@@ -140,12 +140,12 @@
 
         nav {
             bindings = <
-&trans  &trans        &trans          &trans             &trans                                                                                                     &trans           &trans        &trans           &trans      &trans
-&trans  &trans        &trans          &trans             &trans           &trans                                                                    &trans          &trans           &trans        &trans           &trans      &trans
-&trans  &kp C_BRI_DN  &kp C_BRI_UP    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans                                                                    &trans          &kp HOME         &kp PAGE_UP   &kp PAGE_DOWN    &kp END     &trans
-&trans  &kp ESCAPE    &kp LEFT_SHIFT  &kp LEFT_CONTROL   &kp TAB          &kp SQT                                                                   &kp LEFT_ARROW  &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT_ARROW  &kp INSERT  &trans
-&trans  &kp C_MUTE    &trans          &kp DELETE         &kp CAPS         &trans   &trans         &trans  &trans  &kp DELETE  &trans     &trans     &mo 3           &kp PRINTSCREEN  &kp C_PREV    &kp C_NEXT       &kp C_PP    &trans
-&trans  &trans        &trans          &trans             &trans                    &kp BACKSPACE  &trans  &to 0   &to 0       &kp ENTER  &kp SPACE                  &trans           &trans        &trans           &trans      &trans
+&trans  &trans             &trans        &trans             &trans                                                                                                    &trans           &trans        &trans           &trans      &trans
+&trans  &trans             &trans        &trans             &trans           &trans                                                                   &trans          &trans           &trans        &trans           &trans      &trans
+&trans  &kp C_BRI_DN       &kp C_BRI_UP  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans                                                                   &trans          &kp HOME         &kp PAGE_UP   &kp PAGE_DOWN    &kp END     &trans
+&trans  &kp DOUBLE_QUOTES  &kp SQT       &kp DELETE         &kp TAB          &trans                                                                   &kp LEFT_ARROW  &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT_ARROW  &kp INSERT  &trans
+&trans  &kp C_MUTE         &trans        &trans             &kp CAPS         &trans  &trans         &trans  &trans  &kp DELETE  &trans     &trans     &mo 3           &kp PRINTSCREEN  &kp C_PREV    &kp C_NEXT       &kp C_PP    &trans
+&trans  &trans             &trans        &trans             &trans                   &kp BACKSPACE  &trans  &to 0   &to 0       &kp ENTER  &kp SPACE                  &trans           &trans        &trans           &trans      &trans
             >;
         };
 
