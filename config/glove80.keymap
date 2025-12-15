@@ -143,12 +143,12 @@
             // | MAGIC | HOME| END | LEFT | RIGHT|      | BSPC  | DEL   | LALT  | | RALT  | RET   | SPACE |      |  UP   | DOWN  |  [   |   ]   | PGDN |
 
             bindings = <
-&none       &none  &none  &none  &none                                                                                              &none  &none      &none       &none          &none
-&none       &none  &none  &none  &none  &none                                                                                &none  &none  &none      &none       &none          &none
-&none       &kp Q  &kp W  &kp E  &kp R  &kp T                                                                                &kp Y  &kp U  &kp I      &kp O       &kp P          &none
-&none       &kp A  &kp S  &kp D  &kp F  &kp G                                                                                &kp H  &kp J  &kp K      &kp L       &kp SEMICOLON  &none
-&none       &kp Z  &kp X  &kp C  &kp V  &kp B  &kp BACKSPACE   &kp LCTRL  &kp LEFT_ALT  &kp RIGHT_ALT  &kp RCTRL  &kp RSHFT  &kp N  &kp M  &kp COMMA  &kp PERIOD  &kp FSLH       &none
-&magic 4 0  &none  &none  &none  &none         &kp LEFT_SHIFT  &nav       &none         &none          &sym       &kp SPACE         &none  &none      &none       &none          &none
+&none       &none  &none  &none  &none                                                                                                           &none  &none      &none       &none          &none
+&none       &none  &none  &none  &none  &none                                                                                             &none  &none  &none      &none       &none          &none
+&none       &kp Q  &kp W  &kp E  &kp R  &kp T                                                                                             &kp Y  &kp U  &kp I      &kp O       &kp P          &none
+&none       &kp A  &kp S  &kp D  &kp F  &kp G                                                                                             &kp H  &kp J  &kp K      &kp L       &kp SEMICOLON  &none
+&none       &kp Z  &kp X  &kp C  &kp V  &kp B  &kp BACKSPACE   &kp LCTRL  &kp LEFT_ALT  &kp RIGHT_ALT  &kp RCTRL  &kp RSHFT               &kp N  &kp M  &kp COMMA  &kp PERIOD  &kp FSLH       &none
+&magic 4 0  &none  &none  &none  &none         &kp LEFT_SHIFT  &mo 1      &none         &none          &mo 2      &mt LEFT_CONTROL SPACE         &none  &none      &none       &none          &none
             >;
         };
 
@@ -159,7 +159,7 @@
 &trans  &kp C_BRI_DN  &kp C_BRI_UP  &kp CAPSLOCK       &kp TAB          &trans                                                           &trans          &kp HOME         &kp PAGE_UP   &kp PAGE_DOWN    &kp END        &trans
 &trans  &kp ESCAPE    &kp LCMD      &kp LEFT_CONTROL   &kp LEFT_SHIFT   &kp LEFT_ALT                                                     &kp LEFT_ARROW  &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT_ARROW  &kp BACKSPACE  &trans
 &trans  &kp C_MUTE    &kp DELETE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans        &trans  &trans  &trans  &trans  &trans  &trans     &kp INS         &kp PRINTSCREEN  &kp C_PREV    &kp C_NEXT       &kp C_PP       &trans
-&trans  &trans        &trans        &trans             &trans                         &trans  &to 0   &trans  &trans  &num    &kp ENTER                  &trans           &trans        &trans           &trans         &trans
+&trans  &trans        &trans        &trans             &trans                         &trans  &trans  &trans  &trans  &mo 3   &kp ENTER                  &trans           &trans        &trans           &trans         &trans
             >;
         };
 
@@ -170,7 +170,7 @@
 &trans  &kp GRAVE          &kp TILDE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH                                                  &kp PIPE       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
 &trans  &kp DOUBLE_QUOTES  &kp MINUS  &kp UNDERSCORE        &kp KP_EQUAL           &kp KP_PLUS                                                    &kp RIGHT_ALT  &kp RIGHT_SHIFT   &kp RIGHT_CONTROL  &kp RIGHT_GUI         &kp SQT                &trans
 &trans  &kp EXCL           &kp AT     &kp HASH              &kp DOLLAR             &kp PERCENT    &trans  &trans  &trans  &trans  &trans  &trans  &kp CARET      &kp AMPS          &kp STAR           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &trans             &trans     &trans                &trans                                &trans  &to 0   &trans  &trans  &trans  &trans                 &trans            &trans             &trans                &trans                 &trans
+&trans  &trans             &trans     &trans                &trans                                &trans  &mo 3   &trans  &trans  &trans  &trans                 &trans            &trans             &trans                &trans                 &trans
             >;
         };
 
